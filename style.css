@@ -3,7 +3,8 @@
     background-size: cover;
     font-family: Roboto,Nunito Sans;
     width: 100%;
-    height: 75%;
+    height: 100%;
+   
 }
 .nav{
     display:flex;
@@ -29,7 +30,7 @@ h1{
     font-size:100px;
 }
 p{
-    color: white;
+    color: rgb(140, 134, 134);
     font-weight: bold;
 }
 body{
@@ -44,11 +45,42 @@ body{
 .footer{
     display: flex;
     justify-content:flex-start;
-    margin-left: 25%;
+    margin-left: 300px;
     align-items: center;
 }
 .footer img{
     margin: 0 10px;
 }
+.logo-container {
+    display: flex;
+    align-items: center; 
+    margin-top: 25%;
+    margin-left: 10px;
+}
 
+.logo-container img {
+    margin-right: 10px
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column; 
+}
+
+.text-container p,
+.text-container h1 {
+    margin: 0;
+}
+.footer2{
+    color: rgb(128, 124, 119);
+    margin-left: 300px;
+    margin-right: 300px;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: nowrap;
+    
+}
+.col{
+    color: rgb(155, 152, 152);
+}
 
