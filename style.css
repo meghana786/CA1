@@ -50,24 +50,5 @@ body{
 .footer img{
     margin: 0 10px;
 }
-.logo-container {
-    display: flex;
-    align-items: center; 
-    margin-top: 15%;
-    margin-left: 10px;
-}
 
-.logo-container img {
-    margin-right: 10px
-}
-
-.text-container {
-    display: flex;
-    flex-direction: column; 
-}
-
-.text-container p,
-.text-container h1 {
-    margin: 0; 
-}
 
